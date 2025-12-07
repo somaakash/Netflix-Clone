@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: arial;
+}
+body{
+    background: black;
+    color: white;
+    
+}
+/**box1**/
+
+.image{ 
+    width: 100%;
+    height: 70vh;
+
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.9000) 0.000%, rgba(0, 0, 0, 0.8965) 8.500%, rgba(0, 0, 0, 0.8861) 17.00%, rgba(0, 0, 0, 0.8688) 25.50%, rgba(0, 0, 0, 0.8444) 34.00%, rgba(0, 0, 0, 0.8132) 42.50%, rgba(0, 0, 0, 0.7750) 51.00%, rgba(0, 0, 0, 0.7368) 59.50%, rgba(0, 0, 0, 0.7056) 68.00%, rgba(0, 0, 0, 0.6813) 76.50%, rgba(0, 0, 0, 0.6639) 85.00%, rgba(0, 0, 0, 0.6535) 93.50%, rgba(0, 0, 0, 0.6500) 102.0%),                      
+    url(Images/Background_image.jpg);
+
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    padding: 10px;
+
+}
+.logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    
+}
+/**div inside div-1**/
+.nav-bar{
+    display: flex;
+   align-items: center;
+    justify-content:space-between;
+
+}
+.nav-bar button{
+    border: 0px;
+    background-color: #db0001;
+    color: white;
+    margin: 12px;
+    height: 32px;
+    width:76.900px;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+.nav-bar .language{
+    display: inline-flex;
+    background: transparent;
+    align-items: center;
+    border: 1px solid white;
+    padding-left: 16px;
+}
+.head-content{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   
+}
+.head-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    color: white;
+}
+.head-content h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+
+    color: white;
+}
+.email-signup{
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 30px;
+}
+.email-signup input{
+    margin-left: 20px;
+    border: 0;
+    outline: 0;
+    flex: 1;
+    font-weight: 500;
+    
+}
+.email-signup button{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    height: 56px;
+    width: 180.94px;
+    padding: 15px;
+}
+.head-content p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.trending-now{
+    
+    width:92vw;
+    max-width:1200px;          
+    margin:30px auto 10px;
+    padding:0 12px
+
+
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.slider{
+    display: flex;
+    gap: 22px;
+    overflow-x: auto;
+    padding-bottom:6px;
+    scroll-snap-type:x mandatory;
+
+
+}
+.slider::-webkit-scrollbar{
+display:none;
+}
+.card{
+    position:relative;
+    flex:0 0 auto;
+    width: 180px;
+    height: 280px;
+    scroll-snap-align: start;
+    border-radius: 8px;
+    overflow: visible;
+    padding:15px 10px;
+    transition: transform 0.3 ease, box-shadow ease;
+}
+.card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display: block;
+    border-radius: 8px;
+}
+.card:hover{
+    transform:scale(1.1);
+    box-shadow: 0px 10px 20pm rgba(255,255,255,0.2);
+}
+.number{
+    position: absolute;
+    bottom: 15px;
+    left: -15px;
+    font-size: 75px;
+    color: black;
+    -webkit-text-stroke: 2px white;
+
+}
+.more-reasons {
+    width:92vw;
+    max-width:1200px;
+    margin:40px auto;
+    padding:0 12px
+}
+
+.titles {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.section{
+  display:flex;
+  gap:18px;
+  justify-content:flex-start;
+  align-items:stretch;
+  flex-wrap:nowrap;
+  overflow-x:auto;
+  padding-bottom:8px;
+}
+
+.card2 {
+    flex:0 0 220px;
+    border: 1px solid green;
+    width: 20vw;     /* Small enough so all 4 fit in one row */
+    max-width: 220px;
+    border-radius: 20px;
+    padding: 15px;
+    background: linear-gradient(180deg, #1e1e3f 50%, #220222 100%);
+    color: white;
+}
+.card2 img {
+    margin-top: 10px;
+    height: 25px;
+}
+
+
+
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 40px 20px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* "Questions? Call…" text */
+footer .questions {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Footer layout */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* 4 equal columns */
+    gap: 20px;  /* space between columns */
+    max-width: 900px;
+    margin: auto;  /* center the footer */
+}
+
+/* Each column */
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* space between links */
+}
+
+/* Links inside footer */
+.footer-item a {
+    font-size: 14px;
+    color: #ccc;      /* light grey */
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
