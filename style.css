@@ -275,6 +275,9 @@ footer .questions {
     color: #ccc;      /* light grey */
     text-decoration: none;
 }
+.footer-item a:hover {
+    text-decoration: underline;
+}
 
 
 
