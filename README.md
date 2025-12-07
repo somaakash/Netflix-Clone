@@ -39,9 +39,7 @@ This project was created for practicing frontend fundamentals such as layout des
 
 ## 🛠️ Technologies Used  
 - **HTML5**  
-- **CSS3**  
-- **Flexbox**  
-- **CSS Grid**  
+- **CSS3**    
 - **Font Awesome Icons**  
 
 ---
